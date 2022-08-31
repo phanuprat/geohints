@@ -29,7 +29,7 @@
 		controller = new Siema({
 			selector: siema,
 			perPage: typeof perPage === 'object' ? perPage : Number(perPage),
-			loop,
+			loop: false,
 			duration,
 			easing,
 			startIndex,
