@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+"@sveltejs/adapter-node": "next",
 		"siema": "^1.5.1"
 	}
 }
